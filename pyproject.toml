@@ -1,0 +1,16 @@
+[project]
+name = "dlcp2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ax-platform>=0.5.0",
+    "jupyter>=1.1.1",
+    "nbdev>=2.3.34",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
